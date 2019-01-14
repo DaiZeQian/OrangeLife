@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:minHeight="80dp">
+
+    <LinearLayout
+        android:id="@+id/ll_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.oneorange.view.RoundImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="@dimen/title"
+            android:layout_height="@dimen/title"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/default_boy"
+            imagecontrol:border_outside_color="@color/white"
+            imagecontrol:border_thickness="0dp" />
+
+        <ImageView
+            android:id="@+id/add_friend"
+            android:layout_width="@dimen/title"
+            android:layout_height="@dimen/title"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:src="@mipmap/add_friend" />
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="name"
+            android:textColor="@color/text_s"
+            android:textSize="@dimen/text_s" />
+    </LinearLayout>
+
+
+</RelativeLayout>

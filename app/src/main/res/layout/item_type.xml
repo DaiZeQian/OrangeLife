@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:layout_height="26dp"
+    android:minHeight="26dp"
+    android:minWidth="70dp">
+
+    
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_cl_theme_tran"
+        android:textColor="@color/theme"
+        android:textSize="@dimen/text_s"
+        android:text="房屋"
+        android:gravity="center"/>
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title"
+    android:background="#dd000000"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_home"
+            style="@style/HomeTitleImage"
+            android:src="@mipmap/icon_home_on" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="首页"
+            android:textColor="@color/theme"
+            android:textSize="@dimen/text_s" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_chat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_com"
+                style="@style/HomeTitleImage"
+                android:src="@mipmap/icon_community_off" />
+
+            <TextView
+                android:id="@+id/tv_com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="社交"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_s" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_chat_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_cl_hintthree"
+            android:text="数量"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_sq"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_sq"
+            style="@style/HomeTitleImage"
+            android:src="@mipmap/icon_square_off" />
+
+        <TextView
+            android:id="@+id/tv_sq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="广场"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_s" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_my"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_my"
+            style="@style/HomeTitleImage"
+            android:src="@mipmap/icon_my_off" />
+
+        <TextView
+            android:id="@+id/tv_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="我的"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_s" />
+    </LinearLayout>
+
+
+</LinearLayout>

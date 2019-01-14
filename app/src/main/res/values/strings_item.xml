@@ -1,0 +1,4 @@
+<resources>
+    <string name="chat_agree">1</string>
+    <string name="chat_refuse">2</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="deep_text">#2e2e2e</color>
+    
+    <color name="text_s">#cccccc</color>
+    <color name="text_m">#aaaaaa</color>
+    <color name="text_l">#999999</color>
+    <color name="text_h">#666666</color>
+    <color name="cut_line">#2e2e2e</color>
+    <color name="theme">#ff593b</color>
+
+
+    <color name="hint_one">#659ad8</color>
+    <color name="hint_two">#ffb441</color>
+    <color name="hint_three">#a2d66d</color>
+    
+    
+</resources>

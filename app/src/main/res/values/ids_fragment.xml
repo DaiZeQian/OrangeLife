@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item name="chat_ct" type="id" />
+    <item name="chat_single" type="id" />
+
+    <item name="chat_search" type="id" />
+
+
+    <item name="my_settting" type="id" />
+    <item name="my_user_infor" type="id" />
+    <item name="my_home_manager" type="id" />
+
+    <item name="login_psd_login" type="id" />
+    <item name="login_code_login" type="id" />
+
+    <item name="square_topic_more" type="id" />
+    <item name="square_topic_feed" type="id" />
+    <item name="square_add" type="id" />
+</resources>
